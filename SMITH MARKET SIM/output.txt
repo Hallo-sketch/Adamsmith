@@ -1,0 +1,36 @@
+--- Aggregated Statistics over 500 runs ---
+
+Scenario A (More Regulated / Smithian Ideal):
+  Underlying Fundamental Total Return Target: 10.00%
+  Avg. Mean Daily Return (across runs): 0.00006834 (Std of Means: 0.00001057)
+  Avg. Daily Std Dev Return (across runs): 0.007846 (Std of StdDevs: 0.000379)
+  Avg. Kurtosis (across runs): 1.82 (Std of Kurtoses: 1.70)
+  Avg. Skewness (across runs): 0.04 (Std of Skewnesses: 0.13)
+  Avg. Mean Cond. Vol (across runs): 0.007592 (Std of MeanVols: 0.000184)
+  Avg. Max Drawdown (across runs): -14.73% (Std: 2.59%)
+  Overall Mean (from all aggregated returns): 0.00006834
+  Overall Std Dev (from all aggregated returns): 0.007854
+  Overall Skewness (from all aggregated returns): 0.04
+  Overall Kurtosis (from all aggregated returns): 2.04
+
+Scenario B (Less Regulated / Behavioral Impact):
+  Underlying Fundamental Total Return Target (same as A): 10.00%
+  Avg. Mean Daily Return (across runs): 0.00013707 (Std of Means: 0.00004121)
+  Avg. Daily Std Dev Return (across runs): 0.013770 (Std of StdDevs: 0.000877)
+  Avg. Kurtosis (across runs): 7.11 (Std of Kurtoses: 7.12)
+  Avg. Skewness (across runs): 0.01 (Std of Skewnesses: 0.47)
+  Avg. Mean Cond. Vol (across runs): 0.013322 (Std of MeanVols: 0.000328)
+  Avg. Max Drawdown (across runs): -38.50% (Std: 6.35%)
+  Overall Mean (from all aggregated returns): 0.00013707
+  Overall Std Dev (from all aggregated returns): 0.013796
+  Overall Skewness (from all aggregated returns): 0.00
+  Overall Kurtosis (from all aggregated returns): 8.56
+
+--- GARCH Stationarity Checks (Theoretical) ---
+Scenario A GARCH persistence metric: 0.9625 (should be < 1 for stationarity)
+Scenario B GARCH persistence metric: 0.9867 (should be < 1 for stationarity)
+
+Projected 10-year net return for Scenario A (from sim avg daily mean): 0.1863 (Fundamental Target ~0.10)
+  Mean final price for Scenario A: 109.86 (Fundamental Target ~110.00)
+Projected 10-year net return for Scenario B (from sim avg daily mean): 0.4087 (Fundamental Target ~0.10)
+  Mean final price for Scenario B: 111.52 (Fundamental Target ~110.00)

@@ -1,0 +1,4 @@
+Asset,N Obs,Mean (%),Std Dev (%),Skewness,Kurtosis,Excess Kurtosis,Jarque-Bera,JB p-value,Ljung-Box(10) p-val,L-Box Sq.(10) p-val,ARCH-LM(10) p-val
+S&P 500,11176,0.035,1.133,-1.093,27.433,24.433,280208.827,0.000,0.000,0.000,0.000
+Dow Jones Industrial Average,11186,0.034,1.111,-1.400,38.835,35.835,602185.395,0.000,0.000,0.000,0.000
+CBOE Volatility Index,8956,-0.001,6.563,0.972,9.612,6.612,17722.227,0.000,0.000,0.000,0.000
