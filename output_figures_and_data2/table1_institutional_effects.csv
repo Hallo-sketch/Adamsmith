@@ -1,0 +1,5 @@
+Dependent Variable,Coefficient (β),Std. Error,t-value,p-value,R²,95% CI
+Kurtosis,0.083,0.088,0.940,0.350,0.012,"[-0.092, 0.258]"
+GARCH Persistence,0.003,0.005,0.543,0.589,0.004,"[-0.008, 0.013]"
+Degrees of Freedom (ν),3.427,1.389,2.468,0.016,0.078,"[0.659, 6.196]"
+Leverage Effect (γ),0.002,0.002,1.039,0.302,0.015,"[-0.002, 0.005]"

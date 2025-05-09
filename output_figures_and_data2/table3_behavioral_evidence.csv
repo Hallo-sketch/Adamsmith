@@ -1,0 +1,4 @@
+Behavioral Mechanism,Statistical Signature,Empirical Metric,Value (Median),Prevalence,Theoretical Benchmark
+Attention Cascades & Herding,Volatility Clustering & Long Memory,GARCH Persistence (α + β),0.980,86.5%,< 0.9 (Efficient Markets)
+Overconfidence & Extrapolative Expectations,Attenuated Mean-Reversion,Excess Kurtosis,2.540,93.2%,= 0 (Normal Distribution)
+Loss Aversion & Prospect Theory,Asymmetric Volatility & Fat Tails,Leverage Effect (γ) & DoF (ν),"γ = 0.103, ν = 9.2",97.3%,"γ = 0 (Symmetry), ν > 30 (Normal)"
